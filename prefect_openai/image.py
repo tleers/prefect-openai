@@ -2,7 +2,7 @@
 from logging import Logger
 from typing import Any, Dict
 
-from openai.openai_object import OpenAIObject
+from openai import OpenAI as OpenAIObject
 from prefect.blocks.core import Block
 from prefect.exceptions import MissingContextError
 from prefect.logging.loggers import get_logger, get_run_logger

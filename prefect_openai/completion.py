@@ -5,7 +5,7 @@ import traceback
 from logging import Logger
 from typing import Any, Callable, Dict, Optional, Tuple, Union
 
-from openai.openai_object import OpenAIObject
+from openai import OpenAI as OpenAIObject
 from prefect.blocks.core import Block
 from prefect.exceptions import MissingContextError
 from prefect.flows import Flow
