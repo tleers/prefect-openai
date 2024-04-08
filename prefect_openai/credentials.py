@@ -112,7 +112,7 @@ class AzureOpenAICredentials(CredentialsBlock):
     )
 
     azure_ad_token_provider: Optional[str] = Field(
-        default="https://login.microsoftonline.com/your-tenant-id",
+        default=None,
         title="Azure AD Token Provider",
         description="The Azure AD Token Provider.",
     )
